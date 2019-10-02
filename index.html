@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>PhotoPage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="h_wrapper">
+        <header>
+            <p class="logo"><span>Photo</span>Cage app</p>
+            <div class="menu">
+                <a href="#">
+                    <div class="button" id=home>
+                        <img src="img/home.png" alt="">
+                        <p>Home</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="button active" id=gallery>
+                        <img src="img/Gallery.png" alt="">
+                        <p>Gallery</p>
+                    </div>                    
+                </a>
+                <a href="#">
+                    <div class="button" id=members>
+                        <img src="img/Members.png" alt="">
+                        <p>Members</p>
+                    </div>                    
+                </a>
+                <a href="#">
+                    <div class="button" id=logout>
+                        <img src="img/Logout.png" alt="">
+                        <p>Logout</p>
+                    </div>                    
+                </a>
+            </div>
+        </header>        
+    </div>
+    <div class="wrapper">
+        <p class="select">Please select an image from your computer </p>
+        <div class="upload">
+            <form>
+                <input type="text" placeholder="Искать здесь...">
+                <button type="submit">Browse</button>
+            </form>
+            <button class="upbutton">Upload image</button>
+        </div>
+        <div class="gallery">
+            <div class="photo">
+                <a href="#"><img class="zoom" src="img/zoom.png" alt=""></a>
+                <img src="img/img01.jpg" alt="">
+                <div class="info">
+                    <p>Lorem Ipsum is simply</p>
+                    <img src="img/icon_star.png" alt="">
+                </div>
+                <div class="share">
+                    <p>Share</p>
+                    <div class="popup" data-tooltip="share in twitter">
+                        <div class="twitter">
+                            <a href="#">
+                                <img src="img/twitter.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="popup" data-tooltip="share in facebook">
+                            <div class="facebook">
+                                <a href="#">
+                                    <img src="img/Facebook.png" alt="">
+                                </a>
+                            </div>
+                    </div>
+                    <div class="popup" data-tooltip="share in pinterset">
+                            <div class="pinterset">
+                                <a href="#">
+                                    <img src="img/pin.png" alt="">
+                                </a>
+                            </div>
+                    </div>
+                    <div class="popup" data-tooltip="share in tumblr">
+                            <div class="tumblr">
+                                <a href="#">
+                                    <img src="img/tumblr.png" alt="">
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="photo">
+                    <a href="#"><img class="zoom" src="img/zoom.png" alt=""></a>
+                    <img src="img/img02.jpg" alt="">
+                    <div class="info">
+                        <p>Lorem Ipsum is simply</p>
+                        <img src="img/icon_star.png" alt="">
+                    </div>
+                    <div class="share">
+                        <p>Share</p>
+                        <div class="popup" data-tooltip="share in twitter">
+                            <div class="twitter">
+                                <a href="#">
+                                    <img src="img/twitter.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in facebook">
+                                <div class="facebook">
+                                    <a href="#">
+                                        <img src="img/Facebook.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in pinterset">
+                                <div class="pinterset">
+                                    <a href="#">
+                                        <img src="img/pin.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in tumblr">
+                                <div class="tumblr">
+                                    <a href="#">
+                                        <img src="img/tumblr.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="photo">
+                    <a href="#"><img class="zoom" src="img/zoom.png" alt=""></a>
+                    <img src="img/img03.jpg" alt="">
+                    <div class="info">
+                        <p>Lorem Ipsum is simply</p>
+                        <img src="img/icon_star.png" alt="">
+                    </div>
+                    <div class="share">
+                        <p>Share</p>
+                        <div class="popup" data-tooltip="share in twitter">
+                            <div class="twitter">
+                                <a href="#">
+                                    <img src="img/twitter.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in facebook">
+                                <div class="facebook">
+                                    <a href="#">
+                                        <img src="img/Facebook.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in pinterset">
+                                <div class="pinterset">
+                                    <a href="#">
+                                        <img src="img/pin.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in tumblr">
+                                <div class="tumblr">
+                                    <a href="#">
+                                        <img src="img/tumblr.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="photo">
+                    <a href="#"><img class="zoom" src="img/zoom.png" alt=""></a>
+                    <img src="img/img04.jpg" alt="">
+                    <div class="info">
+                        <p>Lorem Ipsum is simply</p>
+                        <img src="img/icon_star.png" alt="">
+                    </div>
+                    <div class="share">
+                        <p>Share</p>
+                        <div class="popup" data-tooltip="share in twitter">
+                            <div class="twitter">
+                                <a href="#">
+                                    <img src="img/twitter.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in facebook">
+                                <div class="facebook">
+                                    <a href="#">
+                                        <img src="img/Facebook.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in pinterset">
+                                <div class="pinterset">
+                                    <a href="#">
+                                        <img src="img/pin.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in tumblr">
+                                <div class="tumblr">
+                                    <a href="#">
+                                        <img src="img/tumblr.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="photo">
+                    <a href="#"><img class="zoom" src="img/zoom.png" alt=""></a>
+                    <img src="img/img05.jpg" alt="">
+                    <div class="info">
+                        <p>Lorem Ipsum is simply</p>
+                        <img src="img/icon_star.png" alt="">
+                    </div>
+                    <div class="share">
+                        <p>Share</p>
+                        <div class="popup" data-tooltip="share in twitter">
+                            <div class="twitter">
+                                <a href="#">
+                                    <img src="img/twitter.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in facebook">
+                                <div class="facebook">
+                                    <a href="#">
+                                        <img src="img/Facebook.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in pinterset">
+                                <div class="pinterset">
+                                    <a href="#">
+                                        <img src="img/pin.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in tumblr">
+                                <div class="tumblr">
+                                    <a href="#">
+                                        <img src="img/tumblr.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="photo">
+                    <a href="#"><img class="zoom" src="img/zoom.png" alt=""></a>
+                    <img src="img/img06.jpg" alt="">
+                    <div class="info">
+                        <p>Lorem Ipsum is simply</p>
+                        <img src="img/icon_star.png" alt="">
+                    </div>
+                    <div class="share">
+                        <p>Share</p>
+                        <div class="popup" data-tooltip="share in twitter">
+                            <div class="twitter">
+                                <a href="#">
+                                    <img src="img/twitter.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in facebook">
+                                <div class="facebook">
+                                    <a href="#">
+                                        <img src="img/Facebook.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in pinterset">
+                                <div class="pinterset">
+                                    <a href="#">
+                                        <img src="img/pin.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in tumblr">
+                                <div class="tumblr">
+                                    <a href="#">
+                                        <img src="img/tumblr.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="photo">
+                    <a href="#"><img class="zoom" src="img/zoom.png" alt=""></a>
+                    <img src="img/img07.jpg" alt="">
+                    <div class="info">
+                        <p>Lorem Ipsum is simply</p>
+                        <img src="img/icon_star.png" alt="">
+                    </div>
+                    <div class="share">
+                        <p>Share</p>
+                        <div class="popup" data-tooltip="share in twitter">
+                            <div class="twitter">
+                                <a href="#">
+                                    <img src="img/twitter.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in facebook">
+                                <div class="facebook">
+                                    <a href="#">
+                                        <img src="img/Facebook.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in pinterset">
+                                <div class="pinterset">
+                                    <a href="#">
+                                        <img src="img/pin.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in tumblr">
+                                <div class="tumblr">
+                                    <a href="#">
+                                        <img src="img/tumblr.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="photo">
+                    <a href="#"><img class="zoom" src="img/zoom.png" alt=""></a>
+                    <img src="img/img08.jpg" alt="">
+                    <div class="info">
+                        <p>Lorem Ipsum is simply</p>
+                        <img src="img/icon_star.png" alt="">
+                    </div>
+                    <div class="share">
+                        <p>Share</p>
+                        <div class="popup" data-tooltip="share in twitter">
+                            <div class="twitter">
+                                <a href="#">
+                                    <img src="img/twitter.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in facebook">
+                                <div class="facebook">
+                                    <a href="#">
+                                        <img src="img/Facebook.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in pinterset">
+                                <div class="pinterset">
+                                    <a href="#">
+                                        <img src="img/pin.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in tumblr">
+                                <div class="tumblr">
+                                    <a href="#">
+                                        <img src="img/tumblr.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="photo">
+                    <a href="#"><img class="zoom" src="img/zoom.png" alt=""></a>
+                    <img src="img/img09.jpg" alt="">
+                    <div class="info">
+                        <p>Lorem Ipsum is simply</p>
+                        <img src="img/icon_star.png" alt="">
+                    </div>
+                    <div class="share">
+                        <p>Share</p>
+                        <div class="popup" data-tooltip="share in twitter">
+                            <div class="twitter">
+                                <a href="#">
+                                    <img src="img/twitter.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in facebook">
+                                <div class="facebook">
+                                    <a href="#">
+                                        <img src="img/Facebook.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in pinterset">
+                                <div class="pinterset">
+                                    <a href="#">
+                                        <img src="img/pin.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in tumblr">
+                                <div class="tumblr">
+                                    <a href="#">
+                                        <img src="img/tumblr.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="photo">
+                    <a href="#"><img class="zoom" src="img/zoom.png" alt=""></a>
+                    <img src="img/img10.jpg" alt="">
+                    <div class="info">
+                        <p>Lorem Ipsum is simply</p>
+                        <img src="img/icon_star.png" alt="">
+                    </div>
+                    <div class="share">
+                        <p>Share</p>
+                        <div class="popup" data-tooltip="share in twitter">
+                            <div class="twitter">
+                                <a href="#">
+                                    <img src="img/twitter.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in facebook">
+                                <div class="facebook">
+                                    <a href="#">
+                                        <img src="img/Facebook.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in pinterset">
+                                <div class="pinterset">
+                                    <a href="#">
+                                        <img src="img/pin.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in tumblr">
+                                <div class="tumblr">
+                                    <a href="#">
+                                        <img src="img/tumblr.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="photo">
+                    <a href="#"><img class="zoom" src="img/zoom.png" alt=""></a>
+                    <img src="img/img11.jpg" alt="">
+                    <div class="info">
+                        <p>Lorem Ipsum is simply</p>
+                        <img src="img/icon_star.png" alt="">
+                    </div>
+                    <div class="share">
+                        <p>Share</p>
+                        <div class="popup" data-tooltip="share in twitter">
+                            <div class="twitter">
+                                <a href="#">
+                                    <img src="img/twitter.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in facebook">
+                                <div class="facebook">
+                                    <a href="#">
+                                        <img src="img/Facebook.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in pinterset">
+                                <div class="pinterset">
+                                    <a href="#">
+                                        <img src="img/pin.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in tumblr">
+                                <div class="tumblr">
+                                    <a href="#">
+                                        <img src="img/tumblr.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="photo">
+                    <a href="#"><img class="zoom" src="img/zoom.png" alt=""></a>
+                    <img src="img/img12.jpg" alt="">
+                    <div class="info">
+                        <p>Lorem Ipsum is simply</p>
+                        <img src="img/icon_star.png" alt="">
+                    </div>
+                    <div class="share">
+                        <p>Share</p>
+                        <div class="popup" data-tooltip="share in twitter">
+                            <div class="twitter">
+                                <a href="#">
+                                    <img src="img/twitter.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in facebook">
+                                <div class="facebook">
+                                    <a href="#">
+                                        <img src="img/Facebook.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in pinterset">
+                                <div class="pinterset">
+                                    <a href="#">
+                                        <img src="img/pin.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="popup" data-tooltip="share in tumblr">
+                                <div class="tumblr">
+                                    <a href="#">
+                                        <img src="img/tumblr.png" alt="">
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+        </div>   
+    </div>                  
+        <footer>
+
+        </footer>
+</body>
+</html>
